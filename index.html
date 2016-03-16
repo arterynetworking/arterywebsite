@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html ng-app="arteryWebApp">
+
+<head>
+    <title>Artery Networking and Events</title>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.0.3/ui-bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/controllers/global.js"></script>
+    <script type="text/javascript" src="js/lib/angular-smooth-scroll.js"></script>
+    <script type="text/javascript" src="js/controllers/main.js"></script>
+    <script type="text/javascript" src="js/controllers/home.js"></script>
+    <script type="text/javascript" src="js/controllers/attending.js"></script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poly:400,400italic">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.3/mapbox-gl.css" />
+    <link rel="stylesheet" type="text/css" href="css/site.css" />
+</head>
+
+<body ng-controller="MainController" scroll>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" ng-show="isLoading"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-fixed-top">
+        <!--ng-class="{ 'navbar-hide': hideNav }">-->
+        <div class="container">
+            <div class="nav navbar-left">
+                <div class="navbar-brand">
+                    <a ng-click="goToPage('/home')">
+                        <img src="./images/logo.png" />
+                    </a>
+                </div>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a ng-click="goToPage('/faq')">FAQs</a></li>
+                <li><a ng-click="goToPage('/about')">About ARTery</a></li>
+                <li><a ng-click="goToPage('/attending')">Attendees</a></li>
+                <li><a ng-click="goToPage('/tickets')">Tickets</a></li>
+                <li><a ng-click="goToPage('/about-wholeheartedly')">About WholeheARTedly</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Container -->
+    <article id="top">
+        <div ng-include="templateUrl"></div>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="box-outer">
+                <div class="box-inner">
+                    <h3>About ARTery</h3>
+                    <p>
+                        An innovative Perth based networking and events group that encourages the discovery of not only the brand, but the person
+                        and face behind that.
+                    </p>
+                    <p>ARTery Networking & Events<br />&copy; 2016</p>
+                </div>
+                <div class="box-inner">
+                    <h3>Helpful Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a ng-click="goToPage('/faq')">FAQs</a></li>
+                        <li><a ng-click="goToPage('/privacy')">Privacy Statement</a></li>
+                        <li><a ng-click="goToPage('/about')">About ARTery</a></li>
+                        <li><a ng-click="goToPage('/about')">About WholeheARTedly</a></li>
+                        <li><a href="mailto:admin@arterynetworkingevents.com.au">Contact via Email</a></li>
+                    </ul>
+                </div>
+                <div class="box-inner">
+                    <h3>Social Media</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com/arterynetworking">Follow on Facebook</a></li>
+                        <li><a href="https://www.twitter.com/artery_perth">Follow on Twitter</a></li>
+                        <li><a href="https://www.instagram.com/artery_perth/">Follow on Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-outer" style="min-height:100px !important;">
+                <div class="box-inner" style="min-height:100px !important;margin-top:0;">
+                <a href="https://www.facebook.com/arterynetworking"><img src="images/social/facebook.png"></a> <a href="https://plus.google.com/u/0/108960724454351637924/about"><img src="images/social/google.png"></a> <a href="https://www.instagram.com/artery_perth/"><img src="images/social/instagram.png"></a> <a href=" https://www.pinterest.com/arterynetworkin"><img src="images/social/pinterest.png"></a> <a href="https://www.linkedin.com/in/artery-networking-and-events-a31a22117"><img src="images/social/linkedin.png"></a> <a href="https://www.twitter.com/artery_perth"><img src="images/social/twitter.png"></a> <a href="https://www.youtube.com/channel/UCu1AqG0PnqC6xkVhrmXJJQA"><img src="images/social/youtube.png"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

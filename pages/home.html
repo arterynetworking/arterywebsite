@@ -1,0 +1,171 @@
+<div ng-controller="HomeController">
+
+    <!-- Hero Header -->
+    <section class="hero">
+        <div class="box-outer">
+            <div class="box-inner">
+                <div class="hero-tiles">
+                <div class="hero-tile">
+                <img src="images/artery-banner.jpg" alt="Artery" title="Artery">  
+                </div>
+                <div class="hero-tile">        
+                <h2>ARTery Networking and Events presents:</h2>
+                <h1>
+                    WholeheARTedly
+                </h1>
+                <h2><i>Resuscitate your career and defibrillate your business; reconnect with ARTery</i></h2>
+                <h2>
+                    From 6:00pm - 4th May 2016<br />
+                    Rigby's Bar and Bistro
+                </h2>
+                <a class="btn btn-default btn-xl" ng-click="goToTickets()">
+                    Get Tickets
+                </a>
+                </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- About Artery -->
+    <section class="about-WholeheARTedly">
+        <div class="box-outer">
+            <div class="box-inner">
+                
+                <h2>About WholeheARTedly</h2>
+
+                <p class="mission-statement">
+                    A Networking Night of Nights.<br />
+                    An engaging event for those who seek to further<br /> their career opportunities.
+                </p>
+
+                <ul class="list-inline list-unstyled list-bubbles">
+                    <li>Cocktail Style Event</li>
+                    <li>Local Art and Photography Exhibition</li>
+                    <li>Local Perth Performances</li>
+                    <li>Local Business Showcase</li>
+                    <li>Meet Fellow Professionals</li>
+                </ul>
+                
+                <a class="btn btn-default btn-xl" ng-click="goToPage('/about-wholeheartedly')">
+                    Read more
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+<section class="whos-attending">
+        <!-- Drawcards -->
+        <div class="box-outer">
+            <div class="box-inner">
+                <h2 class="capitalize">Who's Attending</h2>
+                <div class="drawcards">
+                    
+                    <div class="drawcard">
+                        <div class="img-outer">
+                            <div class="img-inner" style="background-image: url('./images/artists/mattstorer.jpg')"></div>
+                        </div>
+                        <div class="name">Matt Storer, Comedian</div>
+                        <div class="about">Musical, hysterical, multi-award winning, headliner comedian. Performing sold out shows at the Laugh Resort, RAW, and Fringe. Captivating, entertaining and above all grand!</div>
+                    </div>
+                    
+                    <div class="drawcard vip">
+                        <div class="img-outer">
+                            <div class="img-inner" style="background-image: url('./images/artists/vonvixen.jpg')"></div>
+                        </div>
+                        <div class="name">Vicious Von Vixen, MC</div>
+                        <div class="about">Spirited in his manner, Vicious Von Vixen is true gentleman come philanderer! From a land not of this world, he leaves audiences confused with their own sexuality... The leader of the pack and MC of the night!</div>
+                    </div>
+
+                    <div class="drawcard">
+                        <div class="img-outer">
+                            <div class="img-inner" style="background-image: url('./images/artists/chelseabunz.jpg')"></div>
+                        </div>
+                        <div class="name">Chelsea Bunz,<br />Dance Performer</div>
+                        <div class="about">This experienced vibrant and licensed snake handler is Perth’s one and only. Artist by day to Sword yielder at night, she has an infectious wild charm that cannot be tamed.</div>
+                    </div>
+                </div>
+
+                <a class="btn btn-default btn-xl" ng-click="goToPage('/attending')">
+                    See all attendees
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tickets -->
+    <section id="tickets" class="buy-tickets">
+        <div class="box-outer">
+            <div class="box-inner">
+                <h2>Tickets</h2>
+                <div class="tickets">
+                    <div class="ticket">
+                        <h3>Standard</h3>
+                        <div class="price">$100.00</div>
+                        <div class="price-information">price per person</div>
+                        <strong>(Valued at $159)</strong>
+                        <br />
+                        <ul class="ticket-information">
+                            <li>Standard Entitlements</li>
+                        </ul>
+                        <br />
+                        <a class="btn btn-default btn-block btn-lg" ng-click="goToPage('/tickets')">
+                            More information
+                        </a>
+                    </div>
+                    <div class="ticket vip">
+                        <h3>VIP</h3>
+                        <div class="price">$150.00</div>
+                        <div class="price-information">price per person</div>
+                        <strong>(Valued at $299)</strong>
+                        <ul class="ticket-information">
+                            <li>Standard Ticket <br />Plus VIP Entitlements</li>
+                        </ul>
+                        <br />
+                        <a class="btn btn-primary btn-block btn-xl" ng-click="goToPage('/tickets')">
+                            More information
+                        </a>
+                    </div>
+                    <div class="ticket">
+                        <h3>Sponsor</h3>
+                        <div class="price">$200.00</div>
+                        <div class="price-information">starting price</div>
+                        <strong>(Valued from $599)</strong>
+                        <ul class="ticket-information">
+                            <li>VIP Ticket <br />Plus Sponsor benefits</li>
+                        </ul>
+                        <br />
+                        <a class="btn btn-default btn-block btn-lg" ng-click="goToPage('/tickets')">
+                            More information
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- How To Get There -->
+    <section class="alt map rigbys" mapscroll>
+        <div class="box-outer">
+            <div class="box-inner">
+                <h2>How To Get There</h2>
+                <section>
+<div id="left-side">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3385.258300169077!2d115.84971831516131!3d-31.9538885812283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32a52ad62182b1%3A0x519432eee539cb0e!2sRigby&#39;s!5e0!3m2!1sen!2sau!4v1453385153099" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<div id="right-side">
+<img src="images/rigbys.jpg" alt="Artery" title="Artery" width="100%" style="min-height:384px;">
+</div>
+</section>
+</div>
+</div>
+</section>
+<section class="rigbys">
+        <div class="box-outer" style="min-height:100px !important;">
+            <div class="box-inner" style="min-height:100px !important;margin-top:0;">
+                <a class="btn btn-default btn-xl" style="margin-top:25px;" href="http://www.rigbysbar.com.au">More about Rigby's</a> <a class="btn btn-primary btn-xl" style="margin-top:25px; href="https://youtu.be/mcHVnzGaClQ?t=6m25s">Find out how to get there</a>
+        </div>
+        </div>
+    </section>
+</div>

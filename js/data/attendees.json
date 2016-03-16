@@ -1,0 +1,72 @@
+[
+    {
+        "name" : "Chelsea Bunz",
+        "occupation" : "Dance Performer",
+        "bio": "Snakes, Swords and Bellydancing with Charisma to boot. With 22 years experience this vibrant and licensed snake handler is Perth’s one and only. Props, hip shaker and Teddy bear maker. From Artist by day to Sword yielder at night, this girl has and infectious wild charm that cannot be tamed.",
+        "picture": "chelseabunz",
+		"link": "Chelsea-Bunz-132890996724627"
+    },
+    {
+        "name" : "Vicious Von Vixen",
+        "occupation" : "MC",
+        "bio": "Spirited in his manner, Vicious Von Vixen leaves a sour yet addictive taste in his audience’s mouths. A true gentleman come philanderer! From a land not of this world, he leaves audiences confused with their own sexuality... As a true master of ceremonies, Vicious sets standards high and indulges in a world full of fantasies, sensuality, lust and desire! The leader of the pack and MC of the night!",
+        "picture": "vonvixen",
+		"link": "viciousvonv"
+    },
+    {
+        "name" : "Matt Storer",
+        "occupation" : "Comedian",
+        "bio": "Musical, hysterical, multi-award winning headliner comedian. Performed sold out shows at the Laugh Resort , RAW, Fringe, the ABC, Funny Faces competition, and in the UK. He returned to Perth for Fringe in 2016 with ‘Afterlife Laughs’ and added to his repertoire by performing his solo act: ‘Subtle Pleads and Piano Keys’.",
+        "picture": "mattstorer",
+		"link": "MattStorerComedy"
+    },
+    {
+        "name" : "Bee Townsend",
+        "occupation" : "Singer/Musician",
+        "bio": "With soulful pipes reminiscent of the golden age of Hollywood, Miss Bee Townsend lulls her audience into a time long past. A singer, songwriter, teacher and musician, Bee is in great demand Australia wide.",
+        "picture": "missbeetownsend",
+		"link": "missbeetownsend"
+    },
+    {
+        "name" : "Trash Valentine",
+        "occupation" : "Burlesque Performer",
+        "bio": "“I liked the name Valentine because I thought it was romantic and cute, then I was looking online and saw a show in the US that was described as ‘all trash’ and I thought ‘that’s brilliant!’ I’d love to be described as ‘all trash’.”",
+        "picture": "trashvalentine",
+		"link": "trashvalentine"
+    },
+    {
+        "name" : "Jason Matz",
+        "occupation" : "Photographer",
+        "bio": "If you’ve seen a photograph from the Perth Fringe Festival, you’ve probably seen Jason Matz’ work. Raw and candid, Jason’s photos capture the energy expressed on stage in the entire performer’s glory. Be sure to grab him when you meet him and request to take part in his ‘signature shot’.",
+        "picture": "JasonMatzPhotography",
+		"link": "JasonMatzPhotography"
+    },
+    {
+        "name" : "Penny Purr",
+        "occupation" : "Poet/Singer",
+        "bio": "With a fierce, yet compassionate nature, Penny Purr has made it her life’s work to highlight the importance of an individual’s journey through the world, their growth and experiences. Her poetry and musical performances enthuse the audience with a sense of peace and encourage positivity in all that hear her.",
+        "picture": "Pennypurkishdelights",
+		"link": "Pennypurkishdelights"
+    },
+    {
+        "name" : "Rebekah Cull",
+        "occupation" : "Vlogger/Photographer",
+        "bio": "Rebekah’s motto is to “be ready to capture the small moments in life”. Living by this principle, she always has a camera in hand and is well known for her vlogs of daily life.",
+        "picture": "Rebekah-Cull-1521040878116341",
+		"link": "Rebekah-Cull-1521040878116341"
+    },
+    {
+        "name" : "Paranoir",
+        "occupation" : "Graphic Designer/Model",
+        "bio": "With ivory skin, dark hair and the appearance of a Gothic doll, Paranoir is a popular alternative model in the Perth scene. Not just a pretty face, Paranoir is the talent behind Desnoir Graphic Designs, specialising in logos, branding, photo editing, web design & much more.",
+        "picture": "studiodesnoir",
+		"link": "studiodesnoir"
+    },
+    {
+        "name" : "Ashayla Webster",
+        "occupation" : "Model/Entertainer/Writer/Volunteer",
+        "bio": "Well known in the Perth geek community, Ashayla Webster can often be found conducting hospital visits dressed as an Ice Queen, attending conventions and charity events, as well putting fingers to keys for various blogs, including travel, entertainment and pop culture.",
+        "picture": "AshaylaWebster.model",
+		"link": "AshaylaWebster.model"
+    }
+]

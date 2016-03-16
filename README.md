@@ -1,2 +1,2 @@
-# artery-web-test
-Test site for Artery Networking and Events
+# Artery Networking and Events
+Live site for Artery Networking and Events
